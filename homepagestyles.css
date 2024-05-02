@@ -1,0 +1,86 @@
+
+.body1 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-image: url('home2.jpg'); /* Replace 'image.png' with the path to your PNG image */
+    background-size: cover; /* Cover the entire element with the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+nav {
+    background-color: #868484; /* Background color of the navigation bar */
+    color: rgb(33, 31, 31); /* Text color */
+    display: flex;
+    height: 50px;
+    justify-content: space-between; /* Align children with space between */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Padding around the logo and navigation links */
+}
+
+.logo img {
+    margin-left: -21%;
+    height: 75px; /* Adjust the height of the logo */
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.bodhilogo{
+    margin-right: 0px;
+}
+.nav-links li {
+    display: inline;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    margin-right: 50px; /* Adjust margin between navigation links */
+}
+
+.nav-links li:last-child {
+    margin-right: 10; /* Remove margin for the last item */
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: inherit; /* Inherit text color */
+}
+
+.nav-links li a:hover {
+    color: black; /* Text color on hover */
+    border-bottom: 1px solid black;
+}
+.section1{
+    margin-left:3vw ;
+    margin-top: 6vh;
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+    /* border:1px solid red; */
+}
+.heading{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenthome{
+    flex-direction: row;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+.section2{
+    height: 400px;
+    width: 420px;
+    /* border:2px solid red; */
+    display: inline-block;
+    margin-left: 38vw;
+    margin-top: 36vh;
+    /* border:1px solid red; */
+}
+.section3{
+    height: 30vh;
+    width: 100%vw;
+    border: 2px solid red;
+    background-color: #868484;
+}
